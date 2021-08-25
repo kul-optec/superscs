@@ -2,9 +2,9 @@ SuperSCS
 ====
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ef4a850c3a3b445f8130452b0edce2c6)](https://www.codacy.com/app/alphaville/scs?utm_source=github.com&utm_medium=referral&utm_content=kul-forbes/scs&utm_campaign=badger)
-[![Build Status](https://travis-ci.org/kul-forbes/scs.svg?branch=master)](https://travis-ci.org/kul-forbes/scs)
+[![Build Status](https://travis-ci.org/kul-forbes/scs.svg?branch=master)](https://travis-ci.org/kul-optec/scs)
 [![Build status](https://ci.appveyor.com/api/projects/status/lsarbwklc8x93asy/branch/master?svg=true)](https://ci.appveyor.com/project/alphaville/scs/branch/master)
-[![codecov](https://codecov.io/gh/kul-forbes/scs/branch/master/graph/badge.svg)](https://codecov.io/gh/kul-forbes/scs)
+[![codecov](https://codecov.io/gh/kul-forbes/scs/branch/master/graph/badge.svg)](https://codecov.io/gh/kul-optec/scs)
 [![Gitter](https://badges.gitter.im/kul-forbes/scs.svg)](https://gitter.im/kul-forbes/scs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a href="https://kul-forbes.github.io/scs"><img src="https://img.shields.io/badge/Docs-RTFM-pink.svg" alt="RTFM" title="Documentation"></a>
@@ -21,13 +21,13 @@ It can be accessed from **MATLAB** and **Python**, directly, or via **CVX/CVXPy*
 
 ### Documentation
 
-Detailed documentation can be found [**here**](https://kul-forbes.github.io/scs).
+Detailed documentation can be found [**here**](https://kul-optec.github.io/superscs).
 
 ### Download
 
-Download the [**current stable version**](https://github.com/kul-forbes/scs/archive/master.zip)
+Download the [**current stable version**](https://github.com/kul-optec/superscs/archive/master.zip)
 
-Check out the [**installation instructions**](https://kul-forbes.github.io/scs/page_installation.html)
+Check out the [**installation instructions**](https://kul-optec.github.io/superscs/page_installation.html)
 
 ### Docker
 
@@ -39,7 +39,7 @@ Simply run:
 docker pull kulforbes/superscs
 docker run -it kulforbes/superscs
 ```
-Find out [**more information here**](https://kul-forbes.github.io/scs/page_installation.html).
+Find out [**more information here**](https://kul-optec.github.io/superscs/page_installation.html).
 
 ### Supported Interfaces
 
@@ -53,7 +53,7 @@ SuperSCS can be used in the following ways
     - directly
     - via CVXPy
     
-Read the [**documentation**](https://kul-forbes.github.io/scs/page_installation.html) for further information.
+Read the [**documentation**](https://kul-optec.github.io/superscs/page_installation.html) for further information.
 
 ### Cite SuperSCS
 SuperSCS is based on the SuperMann algorithmic scheme; plese, cite as follows:
@@ -65,7 +65,7 @@ Cite the software as follows:
 ```
 @MISC{superscs,
   AUTHOR       = {Sopasakis, P. and Menounou, K. and Patrinos, P.},
-  HOWPUBLISHED = {\url{https://kul-forbes.github.io/scs/}},
+  HOWPUBLISHED = {\url{https://kul-optec.github.io/scs/}},
   MONTH        = {Apr},
   TITLE        = {{SuperSCS}: A fast and accurate conic optimization solver},
   YEAR         = {2017},

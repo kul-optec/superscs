@@ -50,7 +50,7 @@ endif
 endif
 
 # Add on default CFLAGS
-CFLAGS += -g -Wall -std=c99 -Wwrite-strings -funroll-loops -Wstrict-prototypes -I. -Iinclude
+CFLAGS += -g -Wall -Wwrite-strings -funroll-loops -Wstrict-prototypes -I. -Iinclude
 ifneq ($(ISWINDOWS), 1)
 CFLAGS += -fPIC
 endif

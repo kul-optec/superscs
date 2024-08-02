@@ -182,7 +182,7 @@ def install_scs(**kwargs):
     blas_info = kwargs['blas_info']
     lapack_info = kwargs['lapack_info']
 
-    extra_compile_args = ["-O3 -std=c99"]
+    extra_compile_args = ["-O3"]
     library_dirs = []
     extra_link_args = []
     libraries = []

@@ -57,7 +57,7 @@ extern "C" {
 #define false 0
 
 
-    int number_of_assertions;
+    extern int number_of_assertions;
 
 #define TEST_SUCCESS 0 /**< test is successful */
 #define TEST_FAILURE 1 /**< test fails */

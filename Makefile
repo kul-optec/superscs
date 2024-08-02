@@ -1,6 +1,9 @@
 # MAKEFILE for scs
 include scs.mk
 
+PREFIX = /usr/local
+LIBDIR = $(PREFIX)/lib
+INCLUDEDIR = $(PREFIX)/include
 
 OUT_OBJ_PATH = out/obj
 
@@ -214,6 +217,7 @@ help:
 	@echo "SCS_DIR ......................... direction type (ScsDirectionType)"
 	@echo "COV ............................. whether coverage is activated (0/1)"
 	@echo "OPT ............................. set optimization level (0/1/2/3/s/fast)"
+	@echo "PREFIX .......................... set installation path"
 	@echo " "
 	
 docs:
@@ -221,3 +225,24 @@ docs:
 
 show-docs: docs
 	xdg-open docs/index.html
+
+install: default
+	# copy library files to /usr/local/lib/superscs
+	mkdir -p $(LIBDIR)/superscs
+	install out/libscsdir.a $(LIBDIR)/superscs/
+	install out/libscsindir.a $(LIBDIR)/superscs/
+	install out/libscsdir.so $(LIBDIR)/superscs/
+	install out/libscsindir.so $(LIBDIR)/superscs/
+	# create symbolic links in /usr/local/lib
+	ln -s $(LIBDIR)/superscs/libscsdir.a $(LIBDIR)/libscsdir.a
+	ln -s $(LIBDIR)/superscs/libscsindir.a $(LIBDIR)/libscsindir.a
+	ln -s $(LIBDIR)/superscs/libscsdir.so $(LIBDIR)/libscsdir.so
+	ln -s $(LIBDIR)/superscs/libscsindir.so $(LIBDIR)/libscsindir.so
+	# install header files in /usr/local//include
+	# users will have use: #include "superscs/scs.h"
+	mkdir -p $(INCLUDEDIR)/superscs
+	install -D include/* $(INCLUDEDIR)/superscs
+	# copy the header files of linsys in /usr/local/include/linsys
+	mkdir -p $(INCLUDEDIR)/linsys
+	install linsys/amatrix.h $(INCLUDEDIR)/linsys/
+	install linsys/common.h $(INCLUDEDIR)/linsys/

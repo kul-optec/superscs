@@ -67,24 +67,8 @@ RUN   apt-get update && apt-get -y install \
 RUN	make \
         # run the unit tests
 	&& make run-test \
-        # copy library files to /usr/lib/superscs
-	&& mkdir -p /usr/lib/superscs/ \        
-	&& cp out/libscsdir.a /usr/lib/superscs/ \
-	&& cp out/libscsindir.a /usr/lib/superscs/ \
-	&& cp out/libscsdir.so /usr/lib/superscs/ \
-        && cp out/libscsindir.so /usr/lib/superscs/ \
-        # create symbolic links in /usr/lib 
-	&& ln -s /usr/lib/superscs/libscsdir.a /usr/lib/libscsdir.a \
-	&& ln -s /usr/lib/superscs/libscsindir.a /usr/lib/libscsindir.a \
-	&& ln -s /usr/lib/superscs/libscsdir.so /usr/lib/libscsdir.so \
-        && ln -s /usr/lib/superscs/libscsindir.so /usr/lib/libscsindir.so \
-        # install header files in /usr/include
-        # users will have use: #include "superscs/scs.h"
-	&& cp -r ./include/ /usr/include/superscs \
-        # copy the header files of linsys in /usr/include/linsys
-	&& mkdir -p /usr/include/linsys \
-	&& cp linsys/amatrix.h /usr/include/linsys/ \
-	&& cp linsys/common.h /usr/include/linsys/ \
+        # install in /usr
+	&& make PREFIX=/usr install \
         # compile the example
 	&& gcc superscs_test.c -o superscs_run -lscsindir -lblas -llapack -lm \
         # make the example runnable (+x)

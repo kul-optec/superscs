@@ -29,9 +29,10 @@
 #include "test_superscs.h"
 #include "linsys/indirect/private.h"
 
+int number_of_assertions = 0;
+
 int main(int argc, char** argv) {
     int r;
-    number_of_assertions = 0;
 
     printf("\n***** Test Results *****\n\n");
 

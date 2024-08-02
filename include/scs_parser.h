@@ -109,7 +109,7 @@ extern "C" {
      * 
      * - \ref ScsConicProblemMetadata.id "id": URI of the problem which is <code>%http://superscs.org/problem/{problemName}</code>
      * - \ref ScsConicProblemMetadata.date "date": current date
-     * - \ref ScsConicProblemMetadata.license "license": URL of <a href="https://github.com/kul-forbes/scs/blob/master/LICENSE.txt">SuperSCS's license</a>
+     * - \ref ScsConicProblemMetadata.license "license": URL of <a href="https://github.com/kul-optec/superscs/blob/master/LICENSE.txt">SuperSCS's license</a>
      * - \ref ScsConicProblemMetadata.yamlVersion "yamlVersion": 1.2
      * - \ref ScsConicProblemMetadata.creator "creator": the \ref #scs_version "current SuperSCS version"
      * 

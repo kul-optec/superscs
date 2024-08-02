@@ -86,7 +86,7 @@ end
 
 id = sprintf('http://superscs.org/problem/#%s', urlencode(problem_name));
 creator = 'SuperSCS';
-license = 'https://github.com/kul-forbes/scs/blob/master/LICENSE.txt';
+license = 'https://github.com/kul-optec/superscs/blob/master/LICENSE.txt';
 
 if nargin == 5
     if isfield(options, 'creator'), creator = options.creator; end

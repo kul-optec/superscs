@@ -6,7 +6,7 @@ meta:
     date: '11-Apr-2018 02:54:32' # date of creation
     creator: 'SuperSCS v1.2.6'
     yamlVersion: '1.2'
-    license: 'https://github.com/kul-forbes/scs/blob/master/LICENSE.txt'
+    license: 'https://github.com/kul-optec/superscs/blob/master/LICENSE.txt'
 # The problem data are shown below
 problem:
     name: 'test-problem-1'

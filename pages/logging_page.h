@@ -87,7 +87,7 @@
  * ~~~~~
  * 
  * This is the \c info structure we get when we run 
- * [tests/matlab/cone_test.m](https://github.com/kul-forbes/scs/blob/master/tests/matlab/cone_test.m):
+ * [tests/matlab/cone_test.m](https://github.com/kul-optec/superscs/blob/master/tests/matlab/cone_test.m):
  * 
  * ~~~~~{.m}
  * info = 

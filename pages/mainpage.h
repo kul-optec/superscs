@@ -88,7 +88,7 @@
  * 
  * \subsection sec-github-page Download
  * 
- * The source code of [SuperSCS](https://github.com/kul-forbes/scs) is available on [github](https://github.com/kul-forbes/scs).
+ * The source code of [SuperSCS](https://github.com/kul-optec/superscs) is available on [github](https://github.com/kul-optec/superscs).
  * 
  * Check out the \ref page_installation "installation guide".
  * 
@@ -96,11 +96,11 @@
  * \subsection sec-verification Verification
  * 
  * Quality assurance:
- * - [unit tests](https://github.com/kul-forbes/scs/tree/master/tests) (<code>make run-test</code>)
+ * - [unit tests](https://github.com/kul-optec/superscs/tree/master/tests) (<code>make run-test</code>)
  * - [memory management tests](http://valgrind.org) using valgrind
- * - [continuous integration (Travis CI)](https://travis-ci.org/kul-forbes/scs) (Linux + Mac OSX)
+ * - [continuous integration (Travis CI)](https://travis-ci.org/kul-optec/superscs) (Linux + Mac OSX)
  * - [continuous integration (Appveyor)](https://ci.appveyor.com/project/alphaville/scs/branch/dev) (Windows)
- * - [coverage reports](https://codecov.io/gh/kul-forbes/scs) on Codecov
+ * - [coverage reports](https://codecov.io/gh/kul-optec/superscs) on Codecov
  * - [code quality reports](https://www.codacy.com/app/alphaville/scs/dashboard) on codacy
  * - [lcov report](coverage/) using <code>make cov COV=1</code>
  * 
@@ -115,7 +115,7 @@
  * \subsection sec-license License
  * 
  * SuperSCS is licensed with an 
- * <a href="https://github.com/kul-forbes/scs/blob/master/LICENSE.txt">MIT license</a>.
+ * <a href="https://github.com/kul-optec/superscs/blob/master/LICENSE.txt">MIT license</a>.
  * 
  * The MIT license is a short and simple permissive license with conditions 
  * only requiring preservation of copyright and license notices. 
@@ -124,7 +124,7 @@
  * terms and without source code.
  * 
  * You only need to keep 
- * <a href="https://github.com/kul-forbes/scs/blob/master/LICENSE.txt">LICENSE.txt</a>
+ * <a href="https://github.com/kul-optec/superscs/blob/master/LICENSE.txt">LICENSE.txt</a>
  * and, if you redistribute the source code, the copyright notices therein.
  * 
  * \subsection sec-question Do you have a question?
@@ -144,7 +144,7 @@
  * 
  * <script>
  *   ((window.gitter = {}).chat = {}).options = {
- *     room: 'kul-forbes/scs', //own room name
+ *     room: 'kul-optec/superscs', //own room name
  *     activationElement: false
  *   };
  * </script>

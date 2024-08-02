@@ -624,7 +624,7 @@ ScsConicProblemMetadata * scs_init_conic_problem_metadata(const char * problemNa
     metadata = scs_malloc(sizeof (*metadata));
     if (metadata == SCS_NULL) return SCS_NULL;
     strncpy(metadata->license,
-            "https://github.com/kul-forbes/scs/blob/master/LICENSE.txt",
+            "https://github.com/kul-optec/superscs/blob/master/LICENSE.txt",
             SCS_METADATA_TEXT_SIZE);
     strncpy(metadata->problemName, problemName, SCS_METADATA_TEXT_SIZE);
     snprintf(metadata->id, SCS_METADATA_TEXT_SIZE, "http://superscs.org/problem/%s", problemName);

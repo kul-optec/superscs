@@ -42,7 +42,7 @@
  * (vi) a matrix completion problem involving the nuclear norm.
  * 
  * \note The following benchmarks are available in 
- * [/tests/matlab/](https://github.com/kul-forbes/scs/tree/master/tests/matlab).
+ * [/tests/matlab/](https://github.com/kul-optec/superscs/tree/master/tests/matlab).
  * 
  * \note Reported runtimes were recorded on an Intel® Core™ i5-6200U CPU @ 2.30GHz × 4
  * machine with 11.6 GiB RAM running 64-bit Ubuntu 14.04.

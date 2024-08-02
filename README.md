@@ -1,11 +1,11 @@
 SuperSCS
 ====
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ef4a850c3a3b445f8130452b0edce2c6)](https://www.codacy.com/app/alphaville/scs?utm_source=github.com&utm_medium=referral&utm_content=kul-forbes/scs&utm_campaign=badger)
-[![Build Status](https://travis-ci.org/kul-forbes/scs.svg?branch=master)](https://travis-ci.org/kul-optec/scs)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ef4a850c3a3b445f8130452b0edce2c6)](https://www.codacy.com/app/alphaville/scs?utm_source=github.com&utm_medium=referral&utm_content=kul-optec/superscs&utm_campaign=badger)
+[![Build Status](https://travis-ci.org/kul-optec/superscs.svg?branch=master)](https://travis-ci.org/kul-optec/scs)
 [![Build status](https://ci.appveyor.com/api/projects/status/lsarbwklc8x93asy/branch/master?svg=true)](https://ci.appveyor.com/project/alphaville/scs/branch/master)
-[![codecov](https://codecov.io/gh/kul-forbes/scs/branch/master/graph/badge.svg)](https://codecov.io/gh/kul-optec/scs)
-[![Gitter](https://badges.gitter.im/kul-forbes/scs.svg)](https://gitter.im/kul-forbes/scs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![codecov](https://codecov.io/gh/kul-optec/superscs/branch/master/graph/badge.svg)](https://codecov.io/gh/kul-optec/scs)
+[![Gitter](https://badges.gitter.im/kul-optec/superscs.svg)](https://gitter.im/kul-optec/superscs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a href="https://kul-forbes.github.io/scs"><img src="https://img.shields.io/badge/Docs-RTFM-pink.svg" alt="RTFM" title="Documentation"></a>
 

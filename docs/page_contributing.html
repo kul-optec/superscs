@@ -185,7 +185,7 @@ API Documentation in C</h2>
 </div>
 <div class="fragment"><div class="line"><a class="code" href="glbopts_8h.html#a23c48a83ce0c58783595ad45ffcaf76b">scs_int</a> scs_function(<a class="code" href="structscs__data.html">ScsData</a> * data, <a class="code" href="structscs__cone.html">ScsCone</a> * cone);</div>
 </div><!-- fragment --><p>Installation instructions, mathematical documentation and other non-API documentation should not be part of function/variable documentation.</p>
-<p>Instead, you should contribute to an existing page in <a href="https://github.com/kul-forbes/scs/tree/master/pages">pages/</a>.</p>
+<p>Instead, you should contribute to an existing page in <a href="https://github.com/kul-optec/superscs/tree/master/pages">pages/</a>.</p>
 <h2><a class="anchor" id="sec_unit_testing"></a>
 Unit testing in C</h2>
 <p>Unit tests are supported and executed by a simple in-house framework.</p>
@@ -266,14 +266,14 @@ Issues: code of conduct</h3>
 
 <script>
   ((window.gitter = {}).chat = {}).options = {
-    room: 'kul-forbes/scs', //own room name
+    room: 'kul-optec/superscs', //own room name
     activationElement: false
   };
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 <h3><a class="anchor" id="sec_issues_report"></a>
 Reporting an issue</h3>
-<p>You may report your issue using the project's <a href="https://github.com/kul-forbes/scs/issues">issue tracker on github</a></p>
+<p>You may report your issue using the project's <a href="https://github.com/kul-optec/superscs/issues">issue tracker on github</a></p>
 <p>In your issue report, please include the following information:</p>
 <ul>
 <li><b>explanatory title</b>: a clear title</li>
@@ -329,7 +329,7 @@ Committing to github</h2>
 </ul>
 <h2><a class="anchor" id="sec_git_contributing"></a>
 Contributing to SuperSCS</h2>
-<p>In order to contribute and actively participate in the development of SuperSCS, you first need to <a href="https://github.com/kul-forbes/scs/fork">fork</a> the repository on github:</p>
+<p>In order to contribute and actively participate in the development of SuperSCS, you first need to <a href="https://github.com/kul-optec/superscs/fork">fork</a> the repository on github:</p>
  
 <iframe 
   src="https://ghbtns.com/github-btn.html?user=kul-forbes&repo=scs&type=fork&count=true&size=large" 
@@ -358,7 +358,7 @@ Before merging into master</h2>
 <li> <input type="checkbox"> New image uploaded on Docker Hub</li>
 <li> <input type="checkbox"> A pull request has preferably been created</li>
 <li> <input type="checkbox"> Changelog has been updated</li>
-<li> <input type="checkbox"> Make sure there are no important <a href="https://github.com/kul-forbes/scs/issues">issues</a></li>
+<li> <input type="checkbox"> Make sure there are no important <a href="https://github.com/kul-optec/superscs/issues">issues</a></li>
 <li> <input type="checkbox"> Check out <a href="https://trello.com/b/YMcZoJN9/superscs">Trello</a></li>
 </ul>
 <p>After the pull request has been merged:</p>
@@ -397,7 +397,7 @@ Runners</h3>
 <p>These mat files are not put under version control.</p>
 <p>The third argument is a structure with runner configuration parameters.</p>
 <p>These typically are ranges of the problem parameters to be tested, number of repetitions of each run and more.</p>
-<p>Profile runners store some general statistics in the CSV file <a href="https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_results/register.csv">register.csv</a> which can be used for look-up purposes.</p>
+<p>Profile runners store some general statistics in the CSV file <a href="https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_results/register.csv">register.csv</a> which can be used for look-up purposes.</p>
 <h3><a class="anchor" id="sec_performing_benchmarks_matlab_experimenters"></a>
 Experimenters</h3>
 <p>Lastly, we have the <em>experimenters</em>. These are stored in <code>experimenters/</code>.</p>
@@ -413,7 +413,7 @@ Docker</h1>
 Making a Docker image</h2>
 <p>To build a new docker image, run the following command from within the base directory of SuperSCS:</p>
 <div class="fragment"><div class="line">docker image build -t kulforbes/superscs:v{version-name} .</div>
-</div><!-- fragment --><p>The docker configuration is given in <a href="https://github.com/kul-forbes/scs/blob/master/Dockerfile">Dockerfile</a>. </p>
+</div><!-- fragment --><p>The docker configuration is given in <a href="https://github.com/kul-optec/superscs/blob/master/Dockerfile">Dockerfile</a>. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

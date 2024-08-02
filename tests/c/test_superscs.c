@@ -1415,7 +1415,7 @@ bool test_exponential_unbdd_from_YAML(char **str) {
 
 bool test_problem_metadata(char **str) {
     const char problemName[] = "problem-123\0";
-    const char license[] = "https://github.com/kul-forbes/scs/blob/master/LICENSE.txt";
+    const char license[] = "https://github.com/kul-optec/superscs/blob/master/LICENSE.txt";
     const char id[] = "http://superscs.org/problem/problem-123";
     int year = -1, month = -1, day = -1, hour = -1, minute = -1, second = -1;
     char timezone[100];

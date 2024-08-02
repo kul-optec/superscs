@@ -62,12 +62,12 @@
  * 
  * \subsubsection sec_linux_max_install Installation
  * 
- * First, you need to [download SuperSCS](https://github.com/kul-forbes/scs/archive/master.zip)
- * from the [github repo](https://github.com/kul-forbes/scs) of SuperSCS, or use the 
+ * First, you need to [download SuperSCS](https://github.com/kul-optec/superscs/archive/master.zip)
+ * from the [github repo](https://github.com/kul-optec/superscs) of SuperSCS, or use the 
  * command:
  * 
  * ~~~~~
- * git clone 'https://github.com/kul-forbes/scs.git'
+ * git clone 'https://github.com/kul-optec/superscs.git'
  * cd scs/
  * ~~~~~
  * 
@@ -156,7 +156,7 @@
  *  make_scs;
  * \endcode
  * 
- * This should work. If not, please [report an issue](https://github.com/kul-forbes/scs/issues).
+ * This should work. If not, please [report an issue](https://github.com/kul-optec/superscs/issues).
  * 
  * 
  * 
@@ -203,7 +203,7 @@
  * 
  * We have set the tolerance to \f$10^{-8}\f$.
  * 
- * In case you encounter any problems, please [report an issue](https://github.com/kul-forbes/scs/issues).
+ * In case you encounter any problems, please [report an issue](https://github.com/kul-optec/superscs/issues).
  * 
  * \note This a pre-alpha unstable version, so there might be issues. 
  * 

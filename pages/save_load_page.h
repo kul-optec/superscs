@@ -89,7 +89,7 @@
  *     date: '09-Apr-2018 19:41:52'
  *     creator: 'SuperSCS'
  *     yamlVersion: '1.2'
- *     license: 'https://github.com/kul-forbes/scs/blob/master/LICENSE.txt'
+ *     license: 'https://github.com/kul-optec/superscs/blob/master/LICENSE.txt'
  * problem:
  *     name: 'example-problem-1'
  *     A: 

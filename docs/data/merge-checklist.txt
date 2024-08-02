@@ -3,7 +3,7 @@ Code quality and compliance:
 - [ ]  Make sure there is adequate testing.
 - [ ]  Run `make COV=1 cov`; inspect the results
 - [ ]  Run `cppcheck`
-- [ ]  All unit tests pass on [travis CI](https://travis-ci.org/kul-forbes/scs)
+- [ ]  All unit tests pass on [travis CI](https://travis-ci.org/kul-optec/superscs)
 - [ ]  ... and on [Appveyor](https://ci.appveyor.com/project/alphaville/scs/history)
 - [ ]  Valgrind does not return any errors (`make run-tests-mem`)
 - [ ]  The profiler (`make PF=1 profile`) works
@@ -19,5 +19,5 @@ Code quality and compliance:
 - [ ]  Docker hub has been updated
 - [ ]  A pull request has preferably been created
 - [ ]  Changelog has been updated
-- [ ]  Make sure there are no important [issues](https://github.com/kul-forbes/scs/issues)
+- [ ]  Make sure there are no important [issues](https://github.com/kul-optec/superscs/issues)
 - [ ]  Check out [Trello](https://trello.com/b/YMcZoJN9/superscs)

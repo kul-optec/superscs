@@ -7,7 +7,7 @@ meta:
     creator: 'SuperSCS'
     # Minimum YAML version required
     yamlVersion: '1.2'
-    license: 'https://github.com/kul-forbes/scs/blob/master/LICENSE.txt'
+    license: 'https://github.com/kul-optec/superscs/blob/master/LICENSE.txt'
 problem:
     # problem starts here
     name: 'test-problem-3'

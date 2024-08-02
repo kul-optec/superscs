@@ -4,7 +4,7 @@ meta:
     date: '12-Apr-2018 00:56:47'
     creator: 'SuperSCS'
     yamlVersion: '1.2'
-    license: 'https://github.com/kul-forbes/scs/blob/master/LICENSE.txt'
+    license: 'https://github.com/kul-optec/superscs/blob/master/LICENSE.txt'
 problem:
     name: 'liswet1'
     A: 

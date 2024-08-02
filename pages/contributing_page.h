@@ -102,7 +102,7 @@
  * documentation should not be part of function/variable documentation.
  * 
  * Instead, you should contribute to an existing page in 
- * <a href="https://github.com/kul-forbes/scs/tree/master/pages">pages/</a>.
+ * <a href="https://github.com/kul-optec/superscs/tree/master/pages">pages/</a>.
  * 
  * 
  * 
@@ -226,7 +226,7 @@
  * 
  * <script>
  *   ((window.gitter = {}).chat = {}).options = {
- *     room: 'kul-forbes/scs', //own room name
+ *     room: 'kul-optec/superscs', //own room name
  *     activationElement: false
  *   };
  * </script>
@@ -235,7 +235,7 @@
  *
  * \subsubsection sec_issues_report Reporting an issue
  * 
- * You may report your issue using the project's [issue tracker on github](https://github.com/kul-forbes/scs/issues)
+ * You may report your issue using the project's [issue tracker on github](https://github.com/kul-optec/superscs/issues)
  * 
  * In your issue report, please include the following information:
  *
@@ -302,7 +302,7 @@
  * \subsection sec_git_contributing Contributing to SuperSCS
  * 
  * In order to contribute and actively participate in the development of 
- * SuperSCS, you first need to [fork](https://github.com/kul-forbes/scs/fork) 
+ * SuperSCS, you first need to [fork](https://github.com/kul-optec/superscs/fork) 
  * the repository on github:
  * 
  * \htmlonly
@@ -339,7 +339,7 @@
  * - \htmlonly<input type="checkbox">\endhtmlonly A pull request has preferably been created
  * - \htmlonly<input type="checkbox">\endhtmlonly Changelog has been updated
  * - \htmlonly<input type="checkbox">\endhtmlonly Make sure there are no important 
- *           <a href="https://github.com/kul-forbes/scs/issues">issues</a>
+ *           <a href="https://github.com/kul-optec/superscs/issues">issues</a>
  * - \htmlonly<input type="checkbox">\endhtmlonly Check out 
  *           <a href="https://trello.com/b/YMcZoJN9/superscs">Trello</a>
  * 
@@ -410,7 +410,7 @@
  * repetitions of each run and more.
  * 
  * Profile runners store some general statistics in the CSV file 
- * [register.csv](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_results/register.csv) 
+ * [register.csv](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_results/register.csv) 
  * which can be used for look-up purposes.
  * 
  * \subsubsection sec_performing_benchmarks_matlab_experimenters Experimenters
@@ -443,6 +443,6 @@
  * ~~~~~
  * 
  * The docker configuration is given in 
- * [Dockerfile](https://github.com/kul-forbes/scs/blob/master/Dockerfile).
+ * [Dockerfile](https://github.com/kul-optec/superscs/blob/master/Dockerfile).
  * 
  */

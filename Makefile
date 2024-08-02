@@ -34,7 +34,7 @@ default: make_dir $(OUT)/libscsdir.a $(OUT)/libscsindir.a $(OUT)/libscsdir.$(SHA
 	@echo "                                                             "
 	@echo "*************************************************************"
 	@echo "Successfully compiled SuperSCS (based on SCS)                "
-	@echo "Find more at: https://github.com/kul-forbes/scs              "
+	@echo "Find more at: https://github.com/kul-optec/superscs              "
 	@echo "To test, type '$(OUT)/demo_direct' or '$(OUT)/demo_indirect',"
 	@echo "or '$(OUT)/demo_SOCP_indirect' to solve a random SOCP.       "
 	@echo "To run the unit tests, type 'make run-test'.                 "

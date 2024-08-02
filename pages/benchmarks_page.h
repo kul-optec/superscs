@@ -92,7 +92,7 @@
  * 
  * \subsection benchmarks-lasso LASSO problems 
  * 
- * [1152 lasso problems](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_lasso.m)
+ * [1152 lasso problems](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_lasso.m)
  * 
  *
  * <div>
@@ -125,7 +125,7 @@
  * 
  * \subsection benchmarks-pca1 Regularized PCA
  * 
- * [288 regularized PCA problems](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_pca.m)
+ * [288 regularized PCA problems](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_pca.m)
  * 
  * <div>
  * <table border="0">
@@ -146,7 +146,7 @@
  *  
  * \subsection benchmarks-logreg Logistic regression problems
  * 
- * [288 logistic regression problems](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_logreg.m)
+ * [288 logistic regression problems](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_logreg.m)
  * 
  * <div>
  * <table border="0">
@@ -177,7 +177,7 @@
  * 
  * \subsection benchmarks-sdp2 Semidefinite programming
  * 
- * [48 SDP problems](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_sdp2.m)
+ * [48 SDP problems](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_sdp2.m)
  * 
  * <div>
  * <table border="0">
@@ -208,7 +208,7 @@
  *
  * \subsection benchmarks-sdp2b Ill-conditioned SDPs
  * 
- * [48 ill-conditioned SDP problems](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_sdp2b.m)
+ * [48 ill-conditioned SDP problems](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_sdp2b.m)
  * 
  * <div>
  * <table border="0">
@@ -239,7 +239,7 @@
  *  
  * \subsection benchmarks-normcon Norm-constrained norm minimization
  * 
- * [256 norm-constrained problems](https://github.com/kul-forbes/scs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_normcon.m)
+ * [256 norm-constrained problems](https://github.com/kul-optec/superscs/blob/master/tests/profiling_matlab/profile_runners/profile_runner_normcon.m)
  * 
  * <div>
  * <table border="0">
